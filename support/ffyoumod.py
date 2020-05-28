@@ -6,16 +6,17 @@ import time
 import random
 import os
 
-word_n = "hello + Martin Solveig "
-search_link_w = "watch?v=pvdrQpbkKWY"
-max_n = 6
-iter_n = 1
+word_n = "K San + Nessuno "
+search_link_w = "watch?v=NV7aHcOImJs"
+max_n = 20
+iter_n = 2
 min_t =2
 max_t = 3
 
 def cheatyoutubeff(word_n,search_link_w,max_n,iter_n,min_t,max_t):
 
 	fp = webdriver.FirefoxProfile(os.path.join(os.path.abspath("."),'support/User-Agents/UA'+str(iter_n)))
+
 	browser = webdriver.Firefox(fp) # Get local session of firefox
 	#browser.get("http://ifconfig.me") # Load page
 	#time.sleep(3)
